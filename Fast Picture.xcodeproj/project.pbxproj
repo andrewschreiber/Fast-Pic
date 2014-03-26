@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49517F5C18CCC0A400E757BA /* playWhiteCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F5918CCC0A400E757BA /* playWhiteCircle@2x.png */; };
+		49517F5D18CCC0A400E757BA /* pauseColorCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F5A18CCC0A400E757BA /* pauseColorCircle@2x.png */; };
+		49517F5E18CCC0A400E757BA /* pauseWhiteCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F5B18CCC0A400E757BA /* pauseWhiteCircle@2x.png */; };
+		49517F6A18CCCF5D00E757BA /* fastPicIcon120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49517F6718CCCF5D00E757BA /* fastPicIcon120@2x.png */; };
+		4952BB4518DBF89D0034F85B /* fastBackground960@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4952BB4218DBF89D0034F85B /* fastBackground960@2x.png */; };
+		4952BB4718DBF89D0034F85B /* fastbackground1136@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4952BB4418DBF89D0034F85B /* fastbackground1136@2x.png */; };
+		4952BB4918DBF8EE0034F85B /* fastPicIcon58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4952BB4818DBF8EE0034F85B /* fastPicIcon58@2x.png */; };
+		4952BB4B18DBF9000034F85B /* fastPicIcon80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4952BB4A18DBF9000034F85B /* fastPicIcon80@2x.png */; };
 		49E3ADA018CB04BF005D1B7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3AD9F18CB04BF005D1B7B /* Foundation.framework */; };
 		49E3ADA218CB04BF005D1B7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3ADA118CB04BF005D1B7B /* CoreGraphics.framework */; };
 		49E3ADA418CB04BF005D1B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3ADA318CB04BF005D1B7B /* UIKit.framework */; };
@@ -19,6 +27,7 @@
 		49E3ADBB18CB04BF005D1B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E3ADA318CB04BF005D1B7B /* UIKit.framework */; };
 		49E3ADC318CB04BF005D1B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49E3ADC118CB04BF005D1B7B /* InfoPlist.strings */; };
 		49E3ADC518CB04BF005D1B7B /* Fast_PicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E3ADC418CB04BF005D1B7B /* Fast_PicTests.m */; };
+		49E3ADD018CB0557005D1B7B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E3ADCF18CB0557005D1B7B /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +41,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		49E3AD9C18CB04BF005D1B7B /* Fast Pic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Pic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49517F5918CCC0A400E757BA /* playWhiteCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playWhiteCircle@2x.png"; path = "../../playWhiteCircle@2x.png"; sourceTree = "<group>"; };
+		49517F5A18CCC0A400E757BA /* pauseColorCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pauseColorCircle@2x.png"; path = "../../pauseColorCircle@2x.png"; sourceTree = "<group>"; };
+		49517F5B18CCC0A400E757BA /* pauseWhiteCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pauseWhiteCircle@2x.png"; path = "../../pauseWhiteCircle@2x.png"; sourceTree = "<group>"; };
+		49517F6718CCCF5D00E757BA /* fastPicIcon120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fastPicIcon120@2x.png"; sourceTree = SOURCE_ROOT; };
+		4952BB4218DBF89D0034F85B /* fastBackground960@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastBackground960@2x.png"; path = "../../Fast Vid/Fast Vid/Images.xcassets/LaunchImage.launchimage/fastBackground960@2x.png"; sourceTree = "<group>"; };
+		4952BB4418DBF89D0034F85B /* fastbackground1136@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastbackground1136@2x.png"; path = "../../Fast Vid/Fast Vid/Images.xcassets/LaunchImage.launchimage/fastbackground1136@2x.png"; sourceTree = "<group>"; };
+		4952BB4818DBF8EE0034F85B /* fastPicIcon58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastPicIcon58@2x.png"; path = "../../../Desktop/Order/FastApps/fastPicIcon58@2x.png"; sourceTree = "<group>"; };
+		4952BB4A18DBF9000034F85B /* fastPicIcon80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fastPicIcon80@2x.png"; path = "../../../Desktop/Order/FastApps/fastPicIcon80@2x.png"; sourceTree = "<group>"; };
+		49E3AD9C18CB04BF005D1B7B /* Fast Picture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fast Picture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E3AD9F18CB04BF005D1B7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49E3ADA118CB04BF005D1B7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		49E3ADA318CB04BF005D1B7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		49E3ADA718CB04BF005D1B7B /* Fast Pic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fast Pic-Info.plist"; sourceTree = "<group>"; };
+		49E3ADA718CB04BF005D1B7B /* Fast Picture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fast Picture-Info.plist"; sourceTree = "<group>"; };
 		49E3ADA918CB04BF005D1B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49E3ADAB18CB04BF005D1B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		49E3ADAD18CB04BF005D1B7B /* Fast Pic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fast Pic-Prefix.pch"; sourceTree = "<group>"; };
+		49E3ADAD18CB04BF005D1B7B /* Fast Picture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fast Picture-Prefix.pch"; sourceTree = "<group>"; };
 		49E3ADAE18CB04BF005D1B7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49E3ADAF18CB04BF005D1B7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		49E3ADB118CB04BF005D1B7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		49E3ADB718CB04BF005D1B7B /* Fast PicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fast PicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E3ADB718CB04BF005D1B7B /* Fast PictureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fast PictureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E3ADB818CB04BF005D1B7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		49E3ADC018CB04BF005D1B7B /* Fast PicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fast PicTests-Info.plist"; sourceTree = "<group>"; };
+		49E3ADC018CB04BF005D1B7B /* Fast PictureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fast PictureTests-Info.plist"; sourceTree = "<group>"; };
 		49E3ADC218CB04BF005D1B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49E3ADC418CB04BF005D1B7B /* Fast_PicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fast_PicTests.m; sourceTree = "<group>"; };
+		49E3ADCE18CB0557005D1B7B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		49E3ADCF18CB0557005D1B7B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +106,8 @@
 		49E3AD9D18CB04BF005D1B7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49E3AD9C18CB04BF005D1B7B /* Fast Pic.app */,
-				49E3ADB718CB04BF005D1B7B /* Fast PicTests.xctest */,
+				49E3AD9C18CB04BF005D1B7B /* Fast Picture.app */,
+				49E3ADB718CB04BF005D1B7B /* Fast PictureTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +128,8 @@
 			children = (
 				49E3ADAE18CB04BF005D1B7B /* AppDelegate.h */,
 				49E3ADAF18CB04BF005D1B7B /* AppDelegate.m */,
+				49E3ADCE18CB0557005D1B7B /* MainViewController.h */,
+				49E3ADCF18CB0557005D1B7B /* MainViewController.m */,
 				49E3ADB118CB04BF005D1B7B /* Images.xcassets */,
 				49E3ADA618CB04BF005D1B7B /* Supporting Files */,
 			);
@@ -118,10 +139,18 @@
 		49E3ADA618CB04BF005D1B7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49E3ADA718CB04BF005D1B7B /* Fast Pic-Info.plist */,
+				4952BB4A18DBF9000034F85B /* fastPicIcon80@2x.png */,
+				4952BB4818DBF8EE0034F85B /* fastPicIcon58@2x.png */,
+				4952BB4218DBF89D0034F85B /* fastBackground960@2x.png */,
+				4952BB4418DBF89D0034F85B /* fastbackground1136@2x.png */,
+				49517F6718CCCF5D00E757BA /* fastPicIcon120@2x.png */,
+				49517F5918CCC0A400E757BA /* playWhiteCircle@2x.png */,
+				49517F5A18CCC0A400E757BA /* pauseColorCircle@2x.png */,
+				49517F5B18CCC0A400E757BA /* pauseWhiteCircle@2x.png */,
+				49E3ADA718CB04BF005D1B7B /* Fast Picture-Info.plist */,
 				49E3ADA818CB04BF005D1B7B /* InfoPlist.strings */,
 				49E3ADAB18CB04BF005D1B7B /* main.m */,
-				49E3ADAD18CB04BF005D1B7B /* Fast Pic-Prefix.pch */,
+				49E3ADAD18CB04BF005D1B7B /* Fast Picture-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,7 +167,7 @@
 		49E3ADBF18CB04BF005D1B7B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49E3ADC018CB04BF005D1B7B /* Fast PicTests-Info.plist */,
+				49E3ADC018CB04BF005D1B7B /* Fast PictureTests-Info.plist */,
 				49E3ADC118CB04BF005D1B7B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -147,9 +176,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49E3AD9B18CB04BF005D1B7B /* Fast Pic */ = {
+		49E3AD9B18CB04BF005D1B7B /* Fast Picture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49E3ADC818CB04BF005D1B7B /* Build configuration list for PBXNativeTarget "Fast Pic" */;
+			buildConfigurationList = 49E3ADC818CB04BF005D1B7B /* Build configuration list for PBXNativeTarget "Fast Picture" */;
 			buildPhases = (
 				49E3AD9818CB04BF005D1B7B /* Sources */,
 				49E3AD9918CB04BF005D1B7B /* Frameworks */,
@@ -159,14 +188,14 @@
 			);
 			dependencies = (
 			);
-			name = "Fast Pic";
+			name = "Fast Picture";
 			productName = "Fast Pic";
-			productReference = 49E3AD9C18CB04BF005D1B7B /* Fast Pic.app */;
+			productReference = 49E3AD9C18CB04BF005D1B7B /* Fast Picture.app */;
 			productType = "com.apple.product-type.application";
 		};
-		49E3ADB618CB04BF005D1B7B /* Fast PicTests */ = {
+		49E3ADB618CB04BF005D1B7B /* Fast PictureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49E3ADCB18CB04BF005D1B7B /* Build configuration list for PBXNativeTarget "Fast PicTests" */;
+			buildConfigurationList = 49E3ADCB18CB04BF005D1B7B /* Build configuration list for PBXNativeTarget "Fast PictureTests" */;
 			buildPhases = (
 				49E3ADB318CB04BF005D1B7B /* Sources */,
 				49E3ADB418CB04BF005D1B7B /* Frameworks */,
@@ -177,9 +206,9 @@
 			dependencies = (
 				49E3ADBD18CB04BF005D1B7B /* PBXTargetDependency */,
 			);
-			name = "Fast PicTests";
+			name = "Fast PictureTests";
 			productName = "Fast PicTests";
-			productReference = 49E3ADB718CB04BF005D1B7B /* Fast PicTests.xctest */;
+			productReference = 49E3ADB718CB04BF005D1B7B /* Fast PictureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 49E3AD9718CB04BF005D1B7B /* Build configuration list for PBXProject "Fast Pic" */;
+			buildConfigurationList = 49E3AD9718CB04BF005D1B7B /* Build configuration list for PBXProject "Fast Picture" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -208,8 +237,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49E3AD9B18CB04BF005D1B7B /* Fast Pic */,
-				49E3ADB618CB04BF005D1B7B /* Fast PicTests */,
+				49E3AD9B18CB04BF005D1B7B /* Fast Picture */,
+				49E3ADB618CB04BF005D1B7B /* Fast PictureTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,8 +248,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4952BB4518DBF89D0034F85B /* fastBackground960@2x.png in Resources */,
+				4952BB4918DBF8EE0034F85B /* fastPicIcon58@2x.png in Resources */,
+				4952BB4B18DBF9000034F85B /* fastPicIcon80@2x.png in Resources */,
+				49517F6A18CCCF5D00E757BA /* fastPicIcon120@2x.png in Resources */,
+				49517F5C18CCC0A400E757BA /* playWhiteCircle@2x.png in Resources */,
+				4952BB4718DBF89D0034F85B /* fastbackground1136@2x.png in Resources */,
+				49517F5E18CCC0A400E757BA /* pauseWhiteCircle@2x.png in Resources */,
 				49E3ADAA18CB04BF005D1B7B /* InfoPlist.strings in Resources */,
 				49E3ADB218CB04BF005D1B7B /* Images.xcassets in Resources */,
+				49517F5D18CCC0A400E757BA /* pauseColorCircle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49E3ADB018CB04BF005D1B7B /* AppDelegate.m in Sources */,
+				49E3ADD018CB0557005D1B7B /* MainViewController.m in Sources */,
 				49E3ADAC18CB04BF005D1B7B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +295,7 @@
 /* Begin PBXTargetDependency section */
 		49E3ADBD18CB04BF005D1B7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 49E3AD9B18CB04BF005D1B7B /* Fast Pic */;
+			target = 49E3AD9B18CB04BF005D1B7B /* Fast Picture */;
 			targetProxy = 49E3ADBC18CB04BF005D1B7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -360,9 +398,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fast Pic/Fast Pic-Prefix.pch";
-				INFOPLIST_FILE = "Fast Pic/Fast Pic-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Fast Pic/Fast Picture-Prefix.pch";
+				INFOPLIST_FILE = "Fast Pic/Fast Picture-Info.plist";
+				PRODUCT_NAME = "Fast Picture";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,9 +411,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fast Pic/Fast Pic-Prefix.pch";
-				INFOPLIST_FILE = "Fast Pic/Fast Pic-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Fast Pic/Fast Picture-Prefix.pch";
+				INFOPLIST_FILE = "Fast Pic/Fast Picture-Info.plist";
+				PRODUCT_NAME = "Fast Picture";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -396,8 +434,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Fast PicTests/Fast PicTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Fast PicTests/Fast PictureTests-Info.plist";
+				PRODUCT_NAME = "Fast PictureTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -415,8 +453,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fast Pic/Fast Pic-Prefix.pch";
-				INFOPLIST_FILE = "Fast PicTests/Fast PicTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Fast PicTests/Fast PictureTests-Info.plist";
+				PRODUCT_NAME = "Fast PictureTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -425,7 +463,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49E3AD9718CB04BF005D1B7B /* Build configuration list for PBXProject "Fast Pic" */ = {
+		49E3AD9718CB04BF005D1B7B /* Build configuration list for PBXProject "Fast Picture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49E3ADC618CB04BF005D1B7B /* Debug */,
@@ -434,21 +472,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49E3ADC818CB04BF005D1B7B /* Build configuration list for PBXNativeTarget "Fast Pic" */ = {
+		49E3ADC818CB04BF005D1B7B /* Build configuration list for PBXNativeTarget "Fast Picture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49E3ADC918CB04BF005D1B7B /* Debug */,
 				49E3ADCA18CB04BF005D1B7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		49E3ADCB18CB04BF005D1B7B /* Build configuration list for PBXNativeTarget "Fast PicTests" */ = {
+		49E3ADCB18CB04BF005D1B7B /* Build configuration list for PBXNativeTarget "Fast PictureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49E3ADCC18CB04BF005D1B7B /* Debug */,
 				49E3ADCD18CB04BF005D1B7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
